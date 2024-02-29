@@ -22,7 +22,7 @@ public class first {
     int i1= sc.nextInt();
     System.out.print("i2:");
     int i2= sc.nextInt();
-    // String s1= sc.next("Enter the string");
+   // String s1= sc.next("Enter the string");
     // System.out.println(s1);
     // System.out.printf("integer 2",i2);
     // System.out.printf("String",s1,"Integer",i1,"Intenger",i2);
@@ -76,9 +76,5 @@ public class first {
         System.out.println("Wrong Input");
     }
     
-
-    for (int counter=0;counter<100;counter=counter+1){
-        System.out.println(counter);
-    }
     }
 }
