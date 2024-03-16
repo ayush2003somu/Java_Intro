@@ -77,27 +77,43 @@ public class Pattern {
         //         xxxx
         //        xxxxx   
 
-        for (int i=1;i<=a;i++){
-            int a1=a-i; //no. of spaces
+        // for (int i=1;i<=a;i++){
+            // int a1=a-i; //no. of spaces
             
             
             
                 
-                for (int k=1;k<=a1;k++){
-                    System.out.print(" ");
+            //     for (int k=1;k<=a1;k++){
+            //         System.out.print(" ");
                     
 
 
-                }
-                for (int j=1;j<=i;j++) {
-                    System.out.print("x");
-                }
-             System.out.println();   
+            //     }
+            //     for (int j=1;j<=i;j++) {
+            //         System.out.print("x");
+            //     }
+            //  System.out.println();   
             
+                // }
+
+            for(int i=1;i<=a;i++){
                 
+                    for (int k=1;k<=i;k++){
+                        System.out.print("*");
+                    }
+                    for (int k=1;k<=2*(a-i);k++){
+                        System.out.print(" ");
+
+                    }
+                    for (int k=1;k<=i;k++){
+                        System.out.print("*");
+                }
 
                 
+            System.out.println();    
+
             }
+            
                     
         }
 
