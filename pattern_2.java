@@ -186,22 +186,62 @@ public class pattern_2 {
     
     // #EQULATRIAL TRIANGLE WITH SERIES OF NUMBER
 
+    // for (int i=1;i<=a;i++){
+    //     for (int j=1;j<=a-i;j++){
+    //         System.out.print(" ");
+
+    //     }
+    //     for (int j=1;j<=i;j++){
+    //         System.out.print(i);
+    //         System.out.print(" ");
+    //     }
+    //     System.out.println();
+// # Pyramid for pallindrome no.
+    // for (int i=1;i<=a;i++){
+    //     for (int j=1;j<=a-i;j++){
+    //         System.out.print(" ");
+    //     }
+    //     int a1=i;
+    //     for (int j=1;j<=i;j++){
+    //         System.out.print(a1);
+    //         a1--;
+    //     }
+    //     for (int j=1;j<i;j++){
+    //          System.out.print(a1+2);
+    //          a1++;
+    //     }
+    //     System.out.println();
     for (int i=1;i<=a;i++){
         for (int j=1;j<=a-i;j++){
             System.out.print(" ");
-
         }
         for (int j=1;j<=i;j++){
-            System.out.print(i);
-            System.out.print(" ");
+            System.out.print("*");
+        }
+        for (int j=1;j<=i-1;j++){
+            System.out.print("*");
         }
         System.out.println();
     }
+    for (int i=a;i>=1;i--){
+        for (int j=1;j<=a-i;j++){
+            System.out.print(" ");
+        }
+        for (int j=1;j<=i;j++){
+            System.out.print("*");
+        }
+        for (int j=1;j<=i-1;j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }    
          
-}
+    }     
+    }
+         
 
 
-    
-}
+
+
 
 
