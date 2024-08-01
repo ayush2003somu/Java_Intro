@@ -8,11 +8,11 @@ public class arrays {
     int[] test = new int[size];
 
       for (int i=0;i<size;i++){
-        System.out.print("Enter the "+i+" Number");
+        System.out.print("Enter the "+i+"Th Number");
         int digit =sc.nextInt();
         test[i]=digit;   
         }
-        System.out.print("Enter the number to finfd its index:");
+        System.out.print("Enter the number to find its index:"); 
         int x= sc.nextInt();
       System.out.print("The index of given number is:");
       for (int i=0;i<size;i++){
