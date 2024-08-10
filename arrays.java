@@ -6,6 +6,7 @@ public class arrays {
     System.out.print("Enter the size of array:");
     int size = sc.nextInt();
     int[] test = new int[size];
+    
 
       for (int i=0;i<size;i++){
         System.out.print("Enter the "+i+"Th Number");
