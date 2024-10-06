@@ -4,11 +4,11 @@ import java.util.*;
 
 public class D2B{
     public static void main(String[] args){
-         Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter any Decimal digit:");
         int binaryNum = sc.nextInt();
         int reminderNum=0;
-        ArrayList<Integer> bit = new ArrayList<Integer>();
+        ArrayList<Integer> bit = new ArrayList<Intger>();
         while (binaryNum>0){
             reminderNum=binaryNum%2;
             binaryNum=binaryNum/2;
