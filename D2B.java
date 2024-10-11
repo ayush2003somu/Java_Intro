@@ -8,7 +8,7 @@ public class D2B{
         System.out.print("Enter any Decimal digit:");
         int binaryNum = sc.nextInt();
         int reminderNum=0;
-        ArrayList<Integer> bit = new ArrayList<Intger>();
+        ArrayList<Integer> bit = new ArrayList<Integer>();
         while (binaryNum>0){
             reminderNum=binaryNum%2;
             binaryNum=binaryNum/2;
