@@ -1,3 +1,5 @@
-    for (int i : list1){
-    System.out.println("list1::"+list1.get(i));
-    }
+                for (int i:nums) 
+                {
+                    System.out.print(i+",");
+                    
+            } System.out.println();
